@@ -1,3 +1,4 @@
+No se pueden crear, editar o subir archivos … No hay suficiente espacio de almacenamiento. Obtén más ahora o elimina archivos de Drive, Google Fotos o Gmail.
 <!DOCTYPE html>
 <html lang="es">
 
@@ -284,18 +285,18 @@
                         </div>
                     </div>
                     <section>
-                        <form id="contacto" action="enviar_formulario.php" method="POST">
+                        <form id="contacto" action="https://formsubmit.co/robledoca@gmail.com"   method="POST">
                             <!--  envia el formulario por la pagina de formsubmit, cambar el correo del fonde de la direccion para redireccionarlo  -->
 
                             <!-- imputs de usuario -->
                             <div class="input-group">
 
                                 <div class="contact-form-group contact-form-row">
-                                    <label for="name">Nombre</label>
+                                    <label for="name">Nombre*:</label>
                                     <input required type="text" name="name" id="name" />
                                 </div>
                                 <div class="contact-form-group contact-form-row">
-                                    <label for="email">Email</label>
+                                    <label for="email">Email*:</label>
                                     <input required type="email" name="email" id="email" />
                                 </div>
                                 <div class="contact-form-group contact-form-row">
@@ -309,7 +310,7 @@
 
                                 <!-- selectores -->
                                 <!-- <div class="container-2"> -->
-                                <div class="contact-form-group" action="php/get.provincias.php">
+                                <div class="contact-form-group">
                                     <label for="selectProvincias" class="user-field">Provincia:</label>
                                     <select id="selectProvincias"></select>
                                 </div> <br>
@@ -369,8 +370,8 @@
                                 margin: 0 auto;
                                 margin-top: 20px;
                                 width: auto;">Voy a seguir investigando</button>
-                                <!-- <script src="assets/js/app2.js"></script> -->
-                                <script src="assets/js/get.provincias.js"></script>
+
+                                <script src="js/form.js"></script>
                             </div>
                         </form>
                     </section>
