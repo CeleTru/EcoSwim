@@ -45,4 +45,4 @@ Se incluyen títulos de archivos con SEO y alt text.
 ## Contact
 - 👦 [@Andreschkw](https://github.com/Andreschkw)
 - 👨 [@Cesar-Robledo](https://github.com/Cesar-Robledo) 
-- 👩 [@CelesTru]((https://github.com/CeleTru)) 
+- 👩 [@CelesTru](https://github.com/CeleTru) 
