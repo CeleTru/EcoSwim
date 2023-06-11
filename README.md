@@ -19,19 +19,19 @@ Somos Cesar Robledo, Andres Chilkiewicz y Celeste Trujillo realizando nuestro pr
 - 🖥️ [API utilizada](https://datosgobar.github.io/georef-ar-api/)
 
 <h2>📝 Descripción</h2>
-El Sitio Web es estilo One Page (/br)
-Tiene 5 secciónes considerando: modelos, testimonio, experiencia, presupuesto y enlaces a la web. (/br)
-Utilizamos etiquetas semánticas para estructurar el sitio y que quede bien estructurado pero al realizar la compilación terminamos combinando con uso directo de estilos en HTML para poder generar una unidad visual. (/br)
-Contiene un formulario de contacto con validación en campos mencionados con * y se envía un mail a la casilla de correo mediante formsubmit. Hicimos el mensaje de confirmación de formulado enviado pero en la compilación se perdió. (/br)
-Uso Iframe - Video de Instagram nativo. (/br)
-Iconos incorporados en la carpeta img. (/br)
-Fuentes de Google Fonts. (/br)
-Página totalmente responsive con 2 puntos de corte. (/br)
-Se incorporaron transiciones y delay en los carrouseles. (/br)
-Estructura pensada con flexbox que se fue adaptando para incorporar elementos.(/br)
-Usamos una API Rest del gobierno para poder automatizar el completado de los campos del formulario. (/br)
-EL diseño busca generar coherencia mediante el uso de colores y unificación de tipografías. Las imágenes son svg o jpg para optimizar la web.(/br)
-Se incluyen títulos de archivos con SEO y alt text.(/br)
+
+- El Sitio Web es estilo One Page 
+- Tiene 5 secciónes considerando: modelos, testimonio, experiencia, presupuesto y enlaces a la web.
+- Utilizamos etiquetas semánticas para estructurar el sitio y que quede bien estructurado pero al realizar la compilación terminamos combinando con uso directo de estilos en HTML para poder generar una unidad visual.
+- Contiene un formulario de contacto con validación en campos mencionados con * y se envía un mail a la casilla de correo mediante formsubmit. Hicimos el mensaje de confirmación de formulado enviado pero en la compilación se perdió.
+- Uso Iframe - Video de Instagram nativo.
+- Iconos incorporados en la carpeta img. y fuentes de Google Fonts.
+- Página totalmente responsive con 2 puntos de corte. 
+- Se incorporaron transiciones y delay en los carrouseles.
+- Estructura pensada con flexbox que se fue adaptando para incorporar elementos.
+- Usamos una API Rest del gobierno para poder automatizar el completado de los campos del formulario.
+- El diseño busca generar coherencia mediante el uso de colores y unificación de tipografías. Las imágenes son svg o jpg para optimizar la web.
+- Se incluyen títulos de archivos con SEO y alt text.
 
 ## Skills
 - 🌐 Html,
