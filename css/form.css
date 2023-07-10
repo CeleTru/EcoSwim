@@ -1,3 +1,11 @@
+main {
+    margin:0;
+    padding:o;
+    font-family: Arial, helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 .container {
     width: 100%;
     height: 100vh;
@@ -5,9 +13,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .form-content {
+}
+/* Recuadro primario */
+.form-content {
     width: 100%;
     color: #fff;
     max-width: 450px;
@@ -15,13 +23,19 @@
     padding: 50px 60px 70px;
     text-align: center;
     border-radius: 25px;
-  }
-  
-  .input-group {
+}
+/* Titulo de formulario */
+.form-content h2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #fff;
+    position: relative;
+}
+
+.input-group{
     height: 400px;
-  }
-  
-  .input-field {
+}
+.input-field {
     background-color: #515968;
     margin: 15px 0;
     border-radius: 3px;
@@ -29,46 +43,43 @@
     align-items: center;
     transition: max-height 05s;
     overflow: hidden;
-    gap: 3px;
-  }
-  
-  .input-field input {
+}
+/* input usuario */
+.input-field input{
     width: 100%;
     background: transparent;
     border: 0;
     outline: none;
     padding: 10px 15px;
     color: #fff;
-    gap: 3px;
-  }
-  
-  .form-select {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: start;
-    border-radius: 7px;
-    border: none;
-    height: 30px;
-    padding: 5px 10px;
-    margin-top: 10px;
-  }
-  
-  .form-p {
-    color: #fff;
+}
+
+/* selectores */
+.form-select {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: max-height 05s;
+    overflow: hidden;
+    margin-right: 50px;
+}
+/* campos obligatorios */
+.form-p {
+    color:rgb(24, 23, 23);
     text-align: center;
-    font-size: 13px;
-  }
-  
-  .btn-field {
+    font-size: 15px;
+}
+/* Botones */
+.btn-field {
     width: 100%;
     display: flex;
     justify-content: space-between;
-  }
-  
-  .btn-field button {
+}
+
+.btn-field button {
     flex-basis: 40%;
     font-size: 16px;
-    background-color: #ffc400;
+    background-color: #FC7700;
     color: #fff;
     height: 40px;
     border-radius: 10px;
@@ -77,142 +88,9 @@
     cursor: pointer;
     overflow: hidden;
     text-transform: uppercase;
-  }
-  
-  .btn-field button:hover {
-    background-color: tomato;
+    
+}
+.btn-field button:hover {
+    background-color: rgb(252, 86, 57);
     transition: 1s ease;
-  }
-  
-  .contact {
-    background-color: var(--primary-color);
-    color: var(--text-color-inverse);
-    font-size: 18px;
-    border-radius: 14px;
-    padding: 25px;
-    display: grid;
-    gap: 25px;
-  }
-  
-  .contact p,
-  .contact h2,
-  .contact ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .contact-title {
-    font-size: 30px;
-    font-weight: 500;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  
-  .contact-details,
-  .contact-form {
-    display: grid;
-    gap: 20px;
-  }
-  
-  .contact-details-group,
-  .contact-form-group {
-    display: grid;
-    gap: 3px;
-  }
-  
-  .contact-label {
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    border-radius: 7px;
-    border: none;
-    height: 30px;
-    padding: 5px 10px;
-  }
-  
-  .contact-form textarea {
-    height: auto;
-    resize: vertical;
-  }
-  
-  .contact-form-submit {
-    width: 100%;
-    height: 50px;
-    background-color: var(--secundary-color);
-    border-radius: 7px;
-    color: var(--text-color-inverse);
-    border: 1px solid var(--theme-color);
-    cursor: pointer;
-  }
-  
-  .contact-form-submit:hover {
-    box-shadow: 0 0 14px var(--secundary-color);
-  }
-  
-  .social-list {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-  }
-  
-  .social-list img {
-    height: 25px;
-  }
-  
-  .social-list img:hover {
-    filter: drop-shadow(0 0 5px var(--secondary-color));
-  }
-  
-  @media (min-width: 950px) {
-    .contact {
-      font-size: 20px;
-      padding: 70px;
-      max-width: 980px;
-      margin: 0 auto;
-      box-sizing: border-box;
-    }
-  
-    .contact-title {
-      font-size: 35px;
-      text-align: left;
-    }
-  
-    .social-list {
-      justify-content: flex-start;
-    }
-  
-    .social-list img {
-      height: 35px;
-    }
-  
-    .contact-title {
-      grid-area: title;
-    }
-  
-    .contact-details {
-      grid-area: details;
-    }
-  
-    .contact-form {
-      grid-area: form;
-    }
-  
-    .social {
-      grid-area: social;
-    }
-  
-    .contact {
-      display: grid;
-      grid-template-areas:
-        "title form"
-        "details form"
-        "social form";
-      align-items: start;
-    }
-  }
-
-  
+}
