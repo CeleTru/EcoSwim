@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/experiences.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/form.css">
     <script defer src="js/app.js"></script>
     <script src="js/get.provincias.js"></script>
 
@@ -224,7 +225,6 @@
                         <div class="experience-description">
                             Excelente servicio, y la piscina quedó tal cual lo soñamos. Estoy muy conforme, gracias!
                         </div>
-                        <div class="line"></div>
                         </section>
 
                     </div>
@@ -305,19 +305,20 @@
                                 </div>
                                 <div class="contact-form-group contact-form-row">
                                     <label for="message">Mensaje</label>
-                                    <textarea required name="message" id="message" rows="6"></textarea>
-                                </div>
-
+                                    <textarea required name="message" id="message" rows="6"></textarea><br>
+                                </div><br>
+                                
+                                <div></div><br>
                                 <!-- selectores -->
                                 <!-- <div class="container-2"> -->
                                 <div class="contact-form-group">
                                     <label for="selectProvincias" class="user-field">Provincia:</label>
-                                    <select id="selectProvincias" style="max-width: 40vw;"></select>
+                                    <select id="selectProvincias" style="max-width: 40vw;"></select><br>
                                 </div> <br>
                                 <div class="contact-form-group">
                                     <label for="selectLocalidades" class="user-field">Localidad:</label>
-                                    <select id="selectLocalidades" style="max-width: 40vw;"></select>
-                                </div> <br>
+                                    <select id="selectLocalidades" style="max-width: 40vw;"></select><br>
+                                </div> <br> 
                                 <!-- </div> <br> -->
                                 <!-- <div class="container-3"> -->
                                 <div class="contact-form-group">
@@ -327,8 +328,8 @@
                                         <option value="2">Eco Beach L</option>
                                         <option value="3">Eco Classic S</option>
                                         <option value="4">Eco Classic M</option>
-                                        <option value="5">Eco Classic L</option>+
-                                    </select>
+                                        <option value="5">Eco Classic L</option> 
+                                    </select><br>
 
                                 </div> <br>
                                 <div class="contact-form-group">
@@ -338,49 +339,24 @@
                                         <option value="2">Debito</option>
                                         <option value="2">Credito</option>
                                     </select>
+                                </div><br>
+                                <div><p class="form-p" style="text-align:center"> * campos obligatorios</p></div><br>
+                                <!-- //botones// -->
+                                <div class="btn-field">
+                                    <button id="enviar" type="submit" value="enviar">Quiero mi presupuesto</button> <br>
+    
+                                    <button onclick="window.location.href = 'http://127.0.0.1:5500/EcoSwim-main/index.html'">Voy a seguir investigando</button> <br>
+                                    <script src="js/form.js"></script>
+                                </div><br>
 
-                                </div> <br>
-                                <!-- </div> <br> -->
+                                </div> <br>          
+                        </form><br>
 
-                                
-                            </div>
-                            <p class="form-p"> * campos obligatorios</p>
-                            <!-- //botones// -->
-                            <div class="botonesss">
-
-                                <button id="enviar" type="submit" value="enviar" style="background-color:  #FC7700;
-                                font-size: 15px;
-                                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
-                                border-radius: 42px;
-                                display: inline-block;
-                                padding: 10px 30px;
-                                border: none;
-                                color: white;
-                                text-decoration: none;
-                                margin: 0 auto;
-                                width: auto;">Quiero mi presupuesto</button>
-                                                              <script src="js/form.js"></script>
-                            </div>
-                        </form>
-                        
-                                                 <a href='#Modelos' ; style= "background-color: #FC7700;
-                                                 font-size: 15px;
-                                                 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
-                                                 border-radius: 42px;
-                                                 display: inline-block;
-                                                 padding: 10px 30px;
-                                                 border: none;
-                                                 color: white;
-                                                 text-decoration: none;
-                                                 margin: 0 auto;
-                                                 margin-top: 20px;
-                                                 width: auto;">Voy a seguir investigando</a>
-                    </section>
+                    </section><br>
 
                    
                      
-
-                    <section class="profile" id="redesSociales" style="padding-top: 20px">
+                    <section class="profile" id="redesSociales" style="padding-top: 200px">
                         <blockquote class="instagram-media"
                             data-instgrm-permalink="https://www.instagram.com/reel/CsloocHOJmo/?utm_source=ig_embed&amp;utm_campaign=loading"
                             data-instgrm-version="14"
@@ -477,7 +453,6 @@
                             </div>
                         </blockquote>
                         <script async src="//www.instagram.com/embed.js"></script>
-
 
 
 
