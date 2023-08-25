@@ -27,11 +27,11 @@ Somos Angel Villarreal, Sasinka Raúl, Jorgelina Sapp,  Daniel Alejandro Segall,
 - 🅰️ Google Fonts
 
 ## Contact
-- 👦 [@Angelvill321]((https://github.com/Angelvill321))
+- 👦 [@Angelvill321](ttps://github.com/Angelvill321)
 - 👨 [@Ccrri](https://github.com/Ccrri) 
 - 👩 [@CelesTru](https://github.com/CeleTru)
 - 👩 [@jorgelinasapp](https://github.com/jorgelinasapp)
-- 👦 [@pupaycleo]((https://github.com/pupaycleo))
+- 👦 [@pupaycleo](https://github.com/pupaycleo)
 - 👦 [@JuanPSuarez](https://github.com/JuanPSuarez)
 - 👦 [@leandros1793](https://github.com/leandros1793)
 - 👩 [@Luchipucheta](https://github.com/Luchipucheta)
