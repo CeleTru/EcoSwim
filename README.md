@@ -27,7 +27,7 @@ Somos Angel Villarreal, Sasinka Raúl, Jorgelina Sapp,  Daniel Alejandro Segall,
 - 🅰️ Google Fonts
 
 ## Contact
-- 👦 [@Angelvill321](ttps://github.com/Angelvill321)
+- 👦 [@Angelvill321](https://github.com/Angelvill321)
 - 👨 [@Ccrri](https://github.com/Ccrri) 
 - 👩 [@CelesTru](https://github.com/CeleTru)
 - 👩 [@jorgelinasapp](https://github.com/jorgelinasapp)
